@@ -3,12 +3,12 @@ flow: .
 data: data.jsonl
 
 # define cloud resource
-runtime: <runtime-name>
+runtime: ncpf-runtime
 
 connections:
   classify_with_llm:
-    connection: Default_AzureOpenAI
+    connection: NoahOAI
     deployment_name: gpt-35-turbo-0301
   summarize_text_content:
-    connection: Default_AzureOpenAI
+    connection: NoahOAI
     deployment_name: gpt-35-turbo-0301
