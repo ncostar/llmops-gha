@@ -12,7 +12,7 @@ runtime: <runtime-name>
 connections:
   classify_with_llm:
     connection: NoahOAI
-    deployment_name: gpt-35-turbo-0301
+    deployment_name: gpt-35-turbo
   summarize_text_content:
     connection: NoahOAI
-    deployment_name: gpt-35-turbo-0301
+    deployment_name: gpt-35-turbo
